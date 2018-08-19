@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F9FDEC5212962960017B72C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDEC4212962960017B72C /* AppDelegate.m */; };
+		4F9FDEC8212962960017B72C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDEC7212962960017B72C /* ViewController.m */; };
+		4F9FDECB212962960017B72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FDEC9212962960017B72C /* Main.storyboard */; };
+		4F9FDECD212962980017B72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FDECC212962980017B72C /* Assets.xcassets */; };
+		4F9FDED0212962980017B72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FDECE212962980017B72C /* LaunchScreen.storyboard */; };
+		4F9FDED3212962980017B72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDED2212962980017B72C /* main.m */; };
+		4F9FDEDD212962980017B72C /* KiraTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDEDC212962980017B72C /* KiraTextViewTests.m */; };
+		4F9FDEE8212962980017B72C /* KiraTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDEE7212962980017B72C /* KiraTextViewUITests.m */; };
+		4F9FDEF921296D0B0017B72C /* RSAddTextViewLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDEF621296D0B0017B72C /* RSAddTextViewLayoutManager.m */; };
+		4F9FDEFA21296D0B0017B72C /* RSAddTextViewTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FDEF721296D0B0017B72C /* RSAddTextViewTextStorage.m */; };
+		8C8FDF08ADD164AED67E73F5 /* libPods-KiraTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E91F8903B8DEC8E7D4A1507E /* libPods-KiraTextView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F9FDED9212962980017B72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F9FDEB8212962960017B72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9FDEBF212962960017B72C;
+			remoteInfo = KiraTextView;
+		};
+		4F9FDEE4212962980017B72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F9FDEB8212962960017B72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9FDEBF212962960017B72C;
+			remoteInfo = KiraTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F9FDEC0212962960017B72C /* KiraTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiraTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9FDEC3212962960017B72C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F9FDEC4212962960017B72C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F9FDEC6212962960017B72C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F9FDEC7212962960017B72C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F9FDECA212962960017B72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F9FDECC212962980017B72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F9FDECF212962980017B72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F9FDED1212962980017B72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9FDED2212962980017B72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F9FDED8212962980017B72C /* KiraTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiraTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9FDEDC212962980017B72C /* KiraTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiraTextViewTests.m; sourceTree = "<group>"; };
+		4F9FDEDE212962980017B72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9FDEE3212962980017B72C /* KiraTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiraTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9FDEE7212962980017B72C /* KiraTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiraTextViewUITests.m; sourceTree = "<group>"; };
+		4F9FDEE9212962980017B72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9FDEF521296D0B0017B72C /* RSAddTextViewTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAddTextViewTextStorage.h; sourceTree = "<group>"; };
+		4F9FDEF621296D0B0017B72C /* RSAddTextViewLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAddTextViewLayoutManager.m; sourceTree = "<group>"; };
+		4F9FDEF721296D0B0017B72C /* RSAddTextViewTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAddTextViewTextStorage.m; sourceTree = "<group>"; };
+		4F9FDEF821296D0B0017B72C /* RSAddTextViewLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAddTextViewLayoutManager.h; sourceTree = "<group>"; };
+		AFFC86EC7135FE2D3B06C059 /* Pods-KiraTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiraTextView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiraTextView/Pods-KiraTextView.release.xcconfig"; sourceTree = "<group>"; };
+		E91F8903B8DEC8E7D4A1507E /* libPods-KiraTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiraTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F349D869C5E13DA9CD3B0759 /* Pods-KiraTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiraTextView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiraTextView/Pods-KiraTextView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9FDEBD212962960017B72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8FDF08ADD164AED67E73F5 /* libPods-KiraTextView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9FDED5212962980017B72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9FDEE0212962980017B72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F9FDEB7212962960017B72C = {
+			isa = PBXGroup;
+			children = (
+				4F9FDEC2212962960017B72C /* KiraTextView */,
+				4F9FDEDB212962980017B72C /* KiraTextViewTests */,
+				4F9FDEE6212962980017B72C /* KiraTextViewUITests */,
+				4F9FDEC1212962960017B72C /* Products */,
+				8A2B3D7309681ED16CD25FAF /* Pods */,
+				57B371B7D873FE41455DF8C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F9FDEC1212962960017B72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F9FDEC0212962960017B72C /* KiraTextView.app */,
+				4F9FDED8212962980017B72C /* KiraTextViewTests.xctest */,
+				4F9FDEE3212962980017B72C /* KiraTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9FDEC2212962960017B72C /* KiraTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4F9FDEF821296D0B0017B72C /* RSAddTextViewLayoutManager.h */,
+				4F9FDEF621296D0B0017B72C /* RSAddTextViewLayoutManager.m */,
+				4F9FDEF521296D0B0017B72C /* RSAddTextViewTextStorage.h */,
+				4F9FDEF721296D0B0017B72C /* RSAddTextViewTextStorage.m */,
+				4F9FDEC3212962960017B72C /* AppDelegate.h */,
+				4F9FDEC4212962960017B72C /* AppDelegate.m */,
+				4F9FDEC6212962960017B72C /* ViewController.h */,
+				4F9FDEC7212962960017B72C /* ViewController.m */,
+				4F9FDEC9212962960017B72C /* Main.storyboard */,
+				4F9FDECC212962980017B72C /* Assets.xcassets */,
+				4F9FDECE212962980017B72C /* LaunchScreen.storyboard */,
+				4F9FDED1212962980017B72C /* Info.plist */,
+				4F9FDED2212962980017B72C /* main.m */,
+			);
+			path = KiraTextView;
+			sourceTree = "<group>";
+		};
+		4F9FDEDB212962980017B72C /* KiraTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F9FDEDC212962980017B72C /* KiraTextViewTests.m */,
+				4F9FDEDE212962980017B72C /* Info.plist */,
+			);
+			path = KiraTextViewTests;
+			sourceTree = "<group>";
+		};
+		4F9FDEE6212962980017B72C /* KiraTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F9FDEE7212962980017B72C /* KiraTextViewUITests.m */,
+				4F9FDEE9212962980017B72C /* Info.plist */,
+			);
+			path = KiraTextViewUITests;
+			sourceTree = "<group>";
+		};
+		57B371B7D873FE41455DF8C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E91F8903B8DEC8E7D4A1507E /* libPods-KiraTextView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A2B3D7309681ED16CD25FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F349D869C5E13DA9CD3B0759 /* Pods-KiraTextView.debug.xcconfig */,
+				AFFC86EC7135FE2D3B06C059 /* Pods-KiraTextView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F9FDEBF212962960017B72C /* KiraTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9FDEEC212962980017B72C /* Build configuration list for PBXNativeTarget "KiraTextView" */;
+			buildPhases = (
+				7505EE7FF2EBAD7195474A79 /* [CP] Check Pods Manifest.lock */,
+				4F9FDEBC212962960017B72C /* Sources */,
+				4F9FDEBD212962960017B72C /* Frameworks */,
+				4F9FDEBE212962960017B72C /* Resources */,
+				C39466FD8E0A016B7CFB8CF7 /* [CP] Embed Pods Frameworks */,
+				A5C98AC6EF5845B48C7F6793 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiraTextView;
+			productName = KiraTextView;
+			productReference = 4F9FDEC0212962960017B72C /* KiraTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F9FDED7212962980017B72C /* KiraTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9FDEEF212962980017B72C /* Build configuration list for PBXNativeTarget "KiraTextViewTests" */;
+			buildPhases = (
+				4F9FDED4212962980017B72C /* Sources */,
+				4F9FDED5212962980017B72C /* Frameworks */,
+				4F9FDED6212962980017B72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F9FDEDA212962980017B72C /* PBXTargetDependency */,
+			);
+			name = KiraTextViewTests;
+			productName = KiraTextViewTests;
+			productReference = 4F9FDED8212962980017B72C /* KiraTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F9FDEE2212962980017B72C /* KiraTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9FDEF2212962980017B72C /* Build configuration list for PBXNativeTarget "KiraTextViewUITests" */;
+			buildPhases = (
+				4F9FDEDF212962980017B72C /* Sources */,
+				4F9FDEE0212962980017B72C /* Frameworks */,
+				4F9FDEE1212962980017B72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F9FDEE5212962980017B72C /* PBXTargetDependency */,
+			);
+			name = KiraTextViewUITests;
+			productName = KiraTextViewUITests;
+			productReference = 4F9FDEE3212962980017B72C /* KiraTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9FDEB8212962960017B72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Kira;
+				TargetAttributes = {
+					4F9FDEBF212962960017B72C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4F9FDED7212962980017B72C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4F9FDEBF212962960017B72C;
+					};
+					4F9FDEE2212962980017B72C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4F9FDEBF212962960017B72C;
+					};
+				};
+			};
+			buildConfigurationList = 4F9FDEBB212962960017B72C /* Build configuration list for PBXProject "KiraTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F9FDEB7212962960017B72C;
+			productRefGroup = 4F9FDEC1212962960017B72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9FDEBF212962960017B72C /* KiraTextView */,
+				4F9FDED7212962980017B72C /* KiraTextViewTests */,
+				4F9FDEE2212962980017B72C /* KiraTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9FDEBE212962960017B72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9FDED0212962980017B72C /* LaunchScreen.storyboard in Resources */,
+				4F9FDECD212962980017B72C /* Assets.xcassets in Resources */,
+				4F9FDECB212962960017B72C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9FDED6212962980017B72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9FDEE1212962980017B72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7505EE7FF2EBAD7195474A79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KiraTextView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C98AC6EF5845B48C7F6793 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiraTextView/Pods-KiraTextView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39466FD8E0A016B7CFB8CF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiraTextView/Pods-KiraTextView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9FDEBC212962960017B72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9FDEC8212962960017B72C /* ViewController.m in Sources */,
+				4F9FDED3212962980017B72C /* main.m in Sources */,
+				4F9FDEF921296D0B0017B72C /* RSAddTextViewLayoutManager.m in Sources */,
+				4F9FDEC5212962960017B72C /* AppDelegate.m in Sources */,
+				4F9FDEFA21296D0B0017B72C /* RSAddTextViewTextStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9FDED4212962980017B72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9FDEDD212962980017B72C /* KiraTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9FDEDF212962980017B72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9FDEE8212962980017B72C /* KiraTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F9FDEDA212962980017B72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F9FDEBF212962960017B72C /* KiraTextView */;
+			targetProxy = 4F9FDED9212962980017B72C /* PBXContainerItemProxy */;
+		};
+		4F9FDEE5212962980017B72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F9FDEBF212962960017B72C /* KiraTextView */;
+			targetProxy = 4F9FDEE4212962980017B72C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F9FDEC9212962960017B72C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9FDECA212962960017B72C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F9FDECE212962980017B72C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9FDECF212962980017B72C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F9FDEEA212962980017B72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F9FDEEB212962980017B72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F9FDEED212962980017B72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F349D869C5E13DA9CD3B0759 /* Pods-KiraTextView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZA747HXW4Q;
+				INFOPLIST_FILE = KiraTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kira.KiraTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F9FDEEE212962980017B72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFC86EC7135FE2D3B06C059 /* Pods-KiraTextView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZA747HXW4Q;
+				INFOPLIST_FILE = KiraTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kira.KiraTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F9FDEF0212962980017B72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZA747HXW4Q;
+				INFOPLIST_FILE = KiraTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kira.KiraTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiraTextView.app/KiraTextView";
+			};
+			name = Debug;
+		};
+		4F9FDEF1212962980017B72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZA747HXW4Q;
+				INFOPLIST_FILE = KiraTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kira.KiraTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiraTextView.app/KiraTextView";
+			};
+			name = Release;
+		};
+		4F9FDEF3212962980017B72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZA747HXW4Q;
+				INFOPLIST_FILE = KiraTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kira.KiraTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiraTextView;
+			};
+			name = Debug;
+		};
+		4F9FDEF4212962980017B72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZA747HXW4Q;
+				INFOPLIST_FILE = KiraTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kira.KiraTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiraTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9FDEBB212962960017B72C /* Build configuration list for PBXProject "KiraTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9FDEEA212962980017B72C /* Debug */,
+				4F9FDEEB212962980017B72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9FDEEC212962980017B72C /* Build configuration list for PBXNativeTarget "KiraTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9FDEED212962980017B72C /* Debug */,
+				4F9FDEEE212962980017B72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9FDEEF212962980017B72C /* Build configuration list for PBXNativeTarget "KiraTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9FDEF0212962980017B72C /* Debug */,
+				4F9FDEF1212962980017B72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9FDEF2212962980017B72C /* Build configuration list for PBXNativeTarget "KiraTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9FDEF3212962980017B72C /* Debug */,
+				4F9FDEF4212962980017B72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F9FDEB8212962960017B72C /* Project object */;
+}
